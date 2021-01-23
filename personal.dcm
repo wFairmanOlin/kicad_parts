@@ -13,6 +13,7 @@ $ENDCMP
 $CMP OKL-T_1-W12P-C
 D Non-Isolated PoL Module DC DC Converter 1 Output 0.9 ~ 5V    1A 2.9V - 14V Input
 K DC DC CONVERTER 0.9-5V 5W
+F https://www.murata.com/products/productdata/8807038124062/okl-t1-w12.pdf?1583754815000
 $ENDCMP
 #
 $CMP R_2K18
