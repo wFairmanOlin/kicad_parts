@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C_1000u
+D 1000µF 16V Aluminum Electrolytic Capacitors Radial, Can - SMD 80mOhm @ 100kHz 2000 Hrs @ 105°C
+K 1000µF 16V Aluminum Electrolytic Capacitors Radial, Can - SMD 80mOhm @ 100kHz 2000 Hrs @ 105°C
+$ENDCMP
+#
+$CMP NMOS_30V_25A
+D MOSFET N-CH 30V 25A HWSON
+K MOSFET N-CH 30V 25A HWSON
+$ENDCMP
+#
+$CMP OKL-T_1-W12P-C
+D Non-Isolated PoL Module DC DC Converter 1 Output 0.9 ~ 5V    1A 2.9V - 14V Input
+K DC DC CONVERTER 0.9-5V 5W
+$ENDCMP
+#
+$CMP R_2K18
+D 2.18 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thin Film
+K RES SMD 2.18K OHM 0.1% 1/8W 0805
+$ENDCMP
+#
+$CMP R_3K65
+D 3.65 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0805 (2012 Metric)  Thin Film
+K RES SMD 3.65KOHM 0.5% 1/10W 0805
+$ENDCMP
+#
+$CMP level_shifter
+D Voltage Level Translator Bidirectional 1 Circuit 1 Channel 420Mbps 6-TSSOP
+K IC TRNSLTR BIDIRECTIONAL 6TSSOP
+$ENDCMP
+#
+#End Doc Library
