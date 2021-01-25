@@ -1,8 +1,439 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1N62xxA
+D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
+K diode TVS voltage suppressor
+F https://www.vishay.com/docs/88301/15ke.pdf
+$ENDCMP
+#
+$CMP 2N7002
+D 0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23
+K N-Channel Switching MOSFET
+F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
+$ENDCMP
+#
+$CMP BMI088
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI088-DS001.pdf
+$ENDCMP
+#
+$CMP Barometer
+D Pressure Sensor 0.15PSI ~ 17.4PSI (1kPa ~ 120kPa) Absolute  24 b 8-SMD
+$ENDCMP
+#
+$CMP Buck_Converter
+F https://www.ti.com/lit/ds/symlink/tps54335a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1602190969991
+$ENDCMP
+#
+$CMP Buck_Converter_2
+F https://www.ti.com/lit/ds/symlink/tps54335a.pdf?HQS=TI-null-null-digikeymode-df-pf-null-wwe&ts=1602192854825
+$ENDCMP
+#
+$CMP Buzzer
+D Buzzers Transducer, Externally Driven Piezo 1.5mA 4kHz 90dB @ 5V, 10cm Through Hole PC Pins
+K quartz resonator ceramic
+F ~
+$ENDCMP
+#
+$CMP CAM-M8Q-0
+D CAM-M8 RF Receiver BeiDou, GLONASS, GNSS, GPS 1.575GHz -167dBm  On-Board, Chip Module
+F UBlox
+$ENDCMP
+#
+$CMP CAN_Transceiver
+D 1/1 Transceiver Half CANbus SOT-23-8
+$ENDCMP
+#
+$CMP C_0u012
+D CAP CER 0.012UF 50V C0G/NP0 0805
+$ENDCMP
+#
+$CMP C_0u1
+D 0.1µF -20%, +80% 16V Ceramic Capacitor Y5V
+F https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677
+$ENDCMP
+#
+$CMP C_0u22
+D 0.22µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_100u
+D Aluminum Electrolytic Capacitors Radial, Can - SMD - 2000 Hrs @ 105°C
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_10n
+D 10000pF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_10u
+D 10µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_120P
+D ±5% 200V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_1u
+D 1µF -20%, +80% 16V Ceramic Capacitor Y5V (F) 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_220u
+D Aluminum Electrolytic Capacitors Radial, Can - SMD - 1000 Hrs @ 105°C
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP C_22u
+D 22µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_2u2
+D 2.2µF ±10% 16V Ceramic Capacitor X6S 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_47u
+D ±20% 6.3V Ceramic Capacitor X5R 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_4u7
+D 4.7µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_8p
+D 8pF ±0.5pF 50V Ceramic Capacitor C0G, NP0
+F https://www.digikey.com/product-detail/en/yageo/CC0805DRNPO9BN8R0/311-1097-1-ND/303007
+$ENDCMP
+#
+$CMP Conn_02x01
+F https://www.digikey.com/en/products/detail/samtec-inc/TSW-102-07-F-S/2685866
+$ENDCMP
+#
+$CMP Conn_02x03
+D Connector Header Through Hole 6 position 0.100" (2.54mm)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Crystal_24MHZ
+D CRYSTAL 24.0000MHZ 8PF SMD
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP DF40C2.0-20DS-0.4V51
+F https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&productname=DF40C-60DP-0.4V(51)&series=DF40&documenttype=Catalog&lang=en&documentid=D31649_en
+$ENDCMP
+#
+$CMP D_Schottky_10V_3A
+D Diode Schottky 3A (DC) Surface Mount SOD-323F
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_20V
+D Diode Array 1 Pair Common Cathode Schottky 20V 500mA
+K diode Schottky
+F https://www.digikey.com/product-detail/en/nexperia-usa-inc/PMEG2005CT-215/1727-5188-1-ND/2531787
+$ENDCMP
+#
+$CMP D_Schottky_30V
+D Diode Schottky 30V 30mA (DC) Surface Mount SOD-323
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_70V
+D DIODE SCHOTTKY 70V 100MA SOD523
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP D_Schottky_x2_20V
+D DIODE ARRAY SCHOTTKY 20V 3HUSON
+K diode
+F ~
+$ENDCMP
+#
+$CMP Dual_XOR_GATE
+D IC GATE XOR 2CH 2-INP 8TSSOP
+$ENDCMP
+#
+$CMP EMI_Filter_CLC_100MHZ
+D FILTER LC(PI) 135NH/44PF SMD
+K EMI T-filter
+$ENDCMP
+#
+$CMP FRAM_128K
+D FRAM (Ferroelectric RAM) Memory IC 128Kb (16K x 8) SPI 40MHz  8-SOIC
+$ENDCMP
+#
+$CMP IC_BUFFER_INVERT_5.5V
+D Buffer, Inverting 2 Element 1 Bit per Element 3-State Output 8-TSSOP
+$ENDCMP
+#
+$CMP JST_8_RA
+D Connector Header Surface Mount, Right Angle 8 position 0.039" (1.00mm)
+$ENDCMP
+#
+$CMP JST_GH_4_RA
+D Connector Header Surface Mount, Right Angle 4 position 0.049" (1.25mm)
+$ENDCMP
+#
+$CMP JST_GH_5_RA
+D Connector Header Surface Mount, Right Angle 5 position 0.049" (1.25mm)
+$ENDCMP
+#
+$CMP JST_GH_6_RA
+D Connector Header Surface Mount, Right Angle 6 position 0.049" (1.25mm)
+$ENDCMP
+#
+$CMP LDO_600MA
+D IC REG LINEAR 3.3V 600MA SOT25
+K REGULATOR LDO 3.3V
+F https://www.diodes.com/assets/Datasheets/products_inactive_data/AP7365.pdf
+$ENDCMP
+#
+$CMP LED_0805_Green
+D LED, Green, 2.2V, 20mA, 0805
+F http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf
+$ENDCMP
+#
+$CMP LED_0805_Red
+D LED, Red 2.2V, 20mA, 0805
+F https://www.digikey.com/en/products/detail/osram-opto-semiconductors-inc/LS-R976-NR-1/1227987?s=N4IgTCBcDaICwHYCsBaAjGBAOdKByAIiALoC%2BQA
+$ENDCMP
+#
+$CMP LED_AMBER
+D Light emitting diode
+K LED diode
+F https://www.digikey.com/product-detail/en/kingbright/APTD1608SECK-J4-PF/754-1802-1-ND/4753645
+$ENDCMP
+#
+$CMP LED_GREEN
+D Light emitting diode
+K LED diode
+F https://www.digikey.com/product-detail/en/kingbright/APTD1608CGCK/754-1545-1-ND/2514673
+$ENDCMP
+#
+$CMP LIS3MDLTR
+F https://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf
+$ENDCMP
+#
+$CMP LP5907QMFX-3.3
+D Linear Voltage Regulator IC Output 250mA SOT-23-5
+K Single Output LDO Low-Noise
+F http://www.ti.com/lit/ds/symlink/lp5907.pdf
+$ENDCMP
+#
+$CMP L_15u
+D FIXED IND 15UH 3.2A 50 MOHM SMD
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP L_55m
+D FIXED IND 56MH 50MA 135 OHM TH
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP Level_Shifter
+D Voltage Level Translator Bidirectional 1 Circuit 8 Channel 60Mbps 20-VQFN (3.5x4.5)
+F https://www.ti.com/lit/ds/symlink/txs0108e.pdf?ts=1600185314181&ref_url=https%253A%252F%252Fwww.digikey.com%252Fproducts%252Fen%253Fkeywords%253D296-24806-1-ND
+$ENDCMP
+#
+$CMP MCP131T-300E_TT
+D Microcontroller supervisory circuit, SOT-23
+K supervisory circuit
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf
+$ENDCMP
+#
+$CMP MIC5332-SSYMT-TR
+F https://www.mouser.com/datasheet/2/268/mic5332-1891313.pdf
+$ENDCMP
+#
+$CMP MicroSD_molex
+F https://multimedia.3m.com/mws/media/416257O/3mtm-card-connector-microsdtm-2900-series-ts2197.pdf
+$ENDCMP
+#
+$CMP Micro_USB
+D USB Micro Type B connector
+K connector USB micro
+F https://www.digikey.com/products/en?keywords=WM17141CT-ND
+$ENDCMP
+#
+$CMP NMOS_20V_1A
+D MOSFET N-CH 20V 1A SOT323
+K N-Channel MOSFET
+$ENDCMP
+#
 $CMP NMOS_30V_25A
 D MOSFET N-CH 30V 25A HWSON
 K MOSFET N-CH 30V 25A HWSON
+$ENDCMP
+#
+$CMP NMOS_BSS12375
+D MOSFET N-CH 100V 170MA SOT23-3
+K N-Channel MOSFET
+F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP PMOS_20V_.76A
+D P-Channel 760mA (Tj) 301mW (Tj) Surface Mount SC-75, SOT-416
+K transistor PMOS P-MOS P-MOSFET
+$ENDCMP
+#
+$CMP PMOS_20V_0.4A
+D P-MOSFET transistor, drain/gate/source
+K transistor PMOS P-MOS P-MOSFET
+F https://www.infineon.com/dgdl/Infineon-BSS223PW-DS-v01_05-en.pdf?fileId=db3a3043321e49940132481523b6245f
+$ENDCMP
+#
+$CMP PNP_20V_.4A
+D P-Channel 390mA (Ta) 250mW (Ta) Surface Mount PG-SOT323-3
+K transistor PNP
+$ENDCMP
+#
+$CMP PNP_40V_.2A
+D PNP transistor, base/emitter/collector
+K transistor PNP
+F https://www.digikey.com/product-detail/en/on-semiconductor/MMBT3906LT1G/MMBT3906LT1GOSCT-ND/1139817
+$ENDCMP
+#
+$CMP PTC_16V_350MA
+D PTC RESET FUSE 16V 350MA 0805
+K resettable fuse PTC PPTC polyfuse polyswitch
+F https://www.digikey.com/products/en?keywords=118-MF-PSHT035KX-2CT-ND
+$ENDCMP
+#
+$CMP PTC_6V_1A
+D Polymeric PTC Resettable Fuse 6V Ih Surface Mount 0805 (2012 Metric), Concave
+K resettable fuse PTC PPTC polyfuse polyswitch
+$ENDCMP
+#
+$CMP PTC_6V_2A
+D Polymeric PTC Resettable Fuse 6V Ih Surface Mount 1206 (3216 Metric), Concave
+K resettable fuse PTC PPTC polyfuse polyswitch
+$ENDCMP
+#
+$CMP RES_ARRAY_100K
+D 100k Ohm ±5% 62.5mW Power Per Element Isolated  Resistor Network/Array ±200ppm/°C 1506, Convex, Long Side Terminals
+$ENDCMP
+#
+$CMP RES_ARRAY_10K
+D 10k Ohm ±5% 62.5mW Power Per Element Isolated  Resistor Network/Array ±200ppm/°C 1506, Convex, Long Side Terminals
+$ENDCMP
+#
+$CMP RES_ARRAY_120
+D 120 Ohm ±5% 62.5mW Power Per Element Isolated  Resistor Network/Array ±200ppm/°C 1506, Convex, Long Side Terminals
+$ENDCMP
+#
+$CMP R_10
+D 10 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
+$ENDCMP
+#
+$CMP R_100K
+D 68 Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_10K
+D 10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
+$ENDCMP
+#
+$CMP R_120
+D 120 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
+$ENDCMP
+#
+$CMP R_143K
+D 143 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_19K1
+D 19.1 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_1K
+D 1 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
+$ENDCMP
+#
+$CMP R_1K5
+D 1.5 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
+$ENDCMP
+#
+$CMP R_1K8
+D 1.8 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
+$ENDCMP
+#
+$CMP R_1M
+D 1 MOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
+$ENDCMP
+#
+$CMP R_22
+D 22 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film
+$ENDCMP
+#
+$CMP R_220
+D 220 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
+$ENDCMP
+#
+$CMP R_220K
+D 220 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_2K2
+D 2.2 ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_3K74
+D 3.74 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_43K2
+D 43.2 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) - Thick Film
+$ENDCMP
+#
+$CMP R_470
+D 470 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
+$ENDCMP
+#
+$CMP R_51.1
+D 51.1 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_68
+D 68 Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_69K8
+D 69.8 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) - Thick Film
+$ENDCMP
+#
+$CMP Switch_SMT
+D Tactile Switch SPST-NO Top Actuated Surface Mount
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP TVS_DIODE_14V
+D 40V Clamp  Ipp Tvs Diode Surface Mount 0402
+K diode TVS voltage suppressor
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+$CMP USB_Filter
+F https://www.onsemi.com/pub/Collateral/NUF2030XV6-D.PDF
+$ENDCMP
+#
+$CMP rpi_zero_w
+D expansion header for Raspberry Pi 2 & 3
+K raspberrypi gpio
+F https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf
 $ENDCMP
 #
 #End Doc Library
