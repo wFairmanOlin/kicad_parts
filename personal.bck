@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 105162-0001
+D Position Card Connector microSD™ Surface Mount, Right Angle Gold
+K MICRO SD HEADER WITH D/C P
+F https://www.molex.com/pdm_docs/sd/1051620001_sd.pdf
+$ENDCMP
+#
 $CMP 1N62xxA
 D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
 K diode TVS voltage suppressor
@@ -18,6 +24,12 @@ $ENDCMP
 #
 $CMP Barometer
 D Pressure Sensor 0.15PSI ~ 17.4PSI (1kPa ~ 120kPa) Absolute  24 b 8-SMD
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English
+$ENDCMP
+#
+$CMP Barometer_MS5607
+D Pressure Sensor 0.15PSI ~ 17.4PSI (1kPa ~ 120kPa) Absolute  24 b 8-SMD
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English
 $ENDCMP
 #
 $CMP Buck_Converter
@@ -54,6 +66,11 @@ $ENDCMP
 #
 $CMP C_0u22
 D 0.22µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_1000u
+D 1000µF 16V Aluminum Electrolytic Capacitors Radial, Can - SMD 80mOhm @ 100kHz 2000 Hrs @ 105°C
+K 1000µF 16V Aluminum Electrolytic Capacitors Radial, Can - SMD 80mOhm @ 100kHz 2000 Hrs @ 105°C
 $ENDCMP
 #
 $CMP C_100u
@@ -168,6 +185,12 @@ $CMP FRAM_128K
 D FRAM (Ferroelectric RAM) Memory IC 128Kb (16K x 8) SPI 40MHz  8-SOIC
 $ENDCMP
 #
+$CMP FRAM_4K
+D FRAM (Ferroelectric RAM) Memory IC 4Kb (512 x 8) SPI 20MHz  8-SOIC
+K IC FRAM 4KBIT SPI 20MHZ 8SOIC
+F https://www.cypress.com/file/136461/download
+$ENDCMP
+#
 $CMP IC_BUFFER_INVERT_5.5V
 D Buffer, Inverting 2 Element 1 Bit per Element 3-State Output 8-TSSOP
 $ENDCMP
@@ -279,6 +302,12 @@ K N-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
 $ENDCMP
 #
+$CMP OKL-T_1-W12P-C
+D Non-Isolated PoL Module DC DC Converter 1 Output 0.9 ~ 5V    1A 2.9V - 14V Input
+K DC DC CONVERTER 0.9-5V 5W
+F https://www.murata.com/products/productdata/8807038124062/okl-t1-w12.pdf?1583754815000
+$ENDCMP
+#
 $CMP PMOS_20V_.76A
 D P-Channel 760mA (Tj) 301mW (Tj) Surface Mount SC-75, SOT-416
 K transistor PMOS P-MOS P-MOSFET
@@ -334,7 +363,7 @@ D 10 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
 $ENDCMP
 #
 $CMP R_100K
-D 68 Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+D 100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
 $ENDCMP
 #
 $CMP R_10K
@@ -381,8 +410,18 @@ $CMP R_220K
 D 220 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
 $ENDCMP
 #
+$CMP R_2K18
+D 2.18 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thin Film
+K RES SMD 2.18K OHM 0.1% 1/8W 0805
+$ENDCMP
+#
 $CMP R_2K2
 D 2.2 ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_3K65
+D 3.65 kOhms ±0.5% 0.1W, 1/10W Chip Resistor 0805 (2012 Metric)  Thin Film
+K RES SMD 3.65KOHM 0.5% 1/10W 0805
 $ENDCMP
 #
 $CMP R_3K74
@@ -428,6 +467,17 @@ $ENDCMP
 #
 $CMP USB_Filter
 F https://www.onsemi.com/pub/Collateral/NUF2030XV6-D.PDF
+$ENDCMP
+#
+$CMP VXO7805-500-M-TR
+D Non-Isolated PoL Module DC DC Converter 1 Output 5V    500mA 6.5V - 36V Input
+K DC DC CONVERTER 5V 2.5W
+F https://www.cui.com/product/resource/vxo78-500-m.pdf
+$ENDCMP
+#
+$CMP level_shifter
+D Voltage Level Translator Bidirectional 1 Circuit 1 Channel 420Mbps 6-TSSOP
+K IC TRNSLTR BIDIRECTIONAL 6TSSOP
 $ENDCMP
 #
 $CMP rpi_zero_w

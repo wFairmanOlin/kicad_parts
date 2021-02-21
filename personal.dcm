@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 105162-0001
+D Position Card Connector microSD™ Surface Mount, Right Angle Gold
+K MICRO SD HEADER WITH D/C P
+F https://www.molex.com/pdm_docs/sd/1051620001_sd.pdf
+$ENDCMP
+#
 $CMP 1N62xxA
 D 1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE
 K diode TVS voltage suppressor
@@ -177,6 +183,12 @@ $ENDCMP
 #
 $CMP FRAM_128K
 D FRAM (Ferroelectric RAM) Memory IC 128Kb (16K x 8) SPI 40MHz  8-SOIC
+$ENDCMP
+#
+$CMP FRAM_4K
+D FRAM (Ferroelectric RAM) Memory IC 4Kb (512 x 8) SPI 20MHz  8-SOIC
+K IC FRAM 4KBIT SPI 20MHZ 8SOIC
+F https://www.cypress.com/file/136461/download
 $ENDCMP
 #
 $CMP IC_BUFFER_INVERT_5.5V
