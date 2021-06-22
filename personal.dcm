@@ -18,6 +18,24 @@ K N-Channel Switching MOSFET
 F https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf
 $ENDCMP
 #
+$CMP ADS1115BQDGSRQ1
+D 16 Bit Analog to Digital Converter 2, 4 Input 1 Sigma-Delta 10-VSSOP
+K IC ADC 16BIT SIGMA-DELTA 10VSSOP
+F https://www.ti.com/lit/ds/symlink/ads1113-q1.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1623787349919
+$ENDCMP
+#
+$CMP ADS1115IDGS
+D Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10
+K 16 bit 4 channel I2C ADC
+F http://www.ti.com/lit/ds/symlink/ads1113.pdf
+$ENDCMP
+#
+$CMP AQY212SX
+D Solid State SPST-NO (1 Form A) 4-SOP (0.173", 4.40mm)
+K SSR RELAY SPST-NO 500MA 0-60V
+F https://www3.panasonic.biz/ac/e_download/control/relay/photomos/catalog/semi_eng_gu1a_aqy21_s.pdf
+$ENDCMP
+#
 $CMP BMI088
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI088-DS001.pdf
 $ENDCMP
@@ -195,6 +213,12 @@ $CMP IC_BUFFER_INVERT_5.5V
 D Buffer, Inverting 2 Element 1 Bit per Element 3-State Output 8-TSSOP
 $ENDCMP
 #
+$CMP INA240A4D
+D Current Sense Amplifier Circuit - 8-SOIC
+K IC CURR SENSE 1 CIRCUIT 8SOIC
+F https://www.ti.com/lit/ds/symlink/ina240.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1623881874399&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fina240
+$ENDCMP
+#
 $CMP JST_8_RA
 D Connector Header Surface Mount, Right Angle 8 position 0.039" (1.00mm)
 $ENDCMP
@@ -308,6 +332,12 @@ K DC DC CONVERTER 0.9-5V 5W
 F https://www.murata.com/products/productdata/8807038124062/okl-t1-w12.pdf?1583754815000
 $ENDCMP
 #
+$CMP OMIH-SH-105L,394
+D General Purpose Relay SPDT (1 Form C) 5VDC Coil Through Hole
+K RELAY GEN PURPOSE SPDT 16A 5V
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=6-1440000-9&DocType=Customer+Drawing&DocLang=English
+$ENDCMP
+#
 $CMP PMOS_20V_.76A
 D P-Channel 760mA (Tj) 301mW (Tj) Surface Mount SC-75, SOT-416
 K transistor PMOS P-MOS P-MOSFET
@@ -358,6 +388,18 @@ $CMP RES_ARRAY_120
 D 120 Ohm ±5% 62.5mW Power Per Element Isolated  Resistor Network/Array ±200ppm/°C 1506, Convex, Long Side Terminals
 $ENDCMP
 #
+$CMP R_0001
+D 1 ±1% 1W Chip Resistor Wide 1206 (3216 Metric), 0612 Current Sense Metal Film
+K RES 0.001 OHM 1% 1W 1206
+F http://www.cyntec.com/upfile/products/download/RL1632T4F.pdf
+$ENDCMP
+#
+$CMP R_01
+D 100 ±1% 1W Chip Resistor Wide 1206 (3216 Metric), 0612 Automotive AEC-Q200, Current Sense Metal Foil
+K RES 0.1 OHM 1W 1206 WIDE
+F https://www.susumu.co.jp/common/pdf/n_catalog_partition20_en.pdf
+$ENDCMP
+#
 $CMP R_10
 D 10 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film
 $ENDCMP
@@ -374,8 +416,26 @@ $CMP R_120
 D 120 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film
 $ENDCMP
 #
+$CMP R_120_P
+D 120 Ohms ±1% 16W Chip Resistor 2512 (6432 Metric) Moisture Resistant Thin Film
+K RES SMD 120 OHM 1% 16W 2512
+F https://www.susumu.co.jp/common/pdf/CPA.pdf
+$ENDCMP
+#
+$CMP R_14
+D 14 Ohms ±1% 0.4W, 2/5W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film
+K RES SMD 14 OHM 1% 0.4W 0805
+F https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf
+$ENDCMP
+#
 $CMP R_143K
 D 143 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
+$ENDCMP
+#
+$CMP R_150_P
+D 150 ±5% 20W Chip Resistor TO-263-3, D²Pak (2 Leads + Tab), TO-263AB Automotive AEC-Q200, Current Sense, Pulse Withstanding Thick Film
+K RES SMD 150 OHM 5% 20W D2PAK
+F https://www.bourns.com/docs/Product-Datasheets/PWR263S-20.pdf
 $ENDCMP
 #
 $CMP R_19K1
@@ -440,12 +500,30 @@ $CMP R_51.1
 D 51.1 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
 $ENDCMP
 #
+$CMP R_5K
+D 4.99 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film
+K RES SMD 4.99 OHM 1% 1/8W 0805
+F https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf
+$ENDCMP
+#
 $CMP R_68
 D 68 Ohms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film
 $ENDCMP
 #
 $CMP R_69K8
 D 69.8 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) - Thick Film
+$ENDCMP
+#
+$CMP SI7615ADN-T1-GE3
+D P-Channel 20 V 35A (Tc) 3.7W (Ta), 52W (Tc) Surface Mount PowerPAK® 1212-8
+K MOSFET P-CH 20V 35A PPAK1212-8
+F https://www.vishay.com/docs/62667/si7615adn.pdf
+$ENDCMP
+#
+$CMP SISA40DN-T1-GE3
+D N-Channel 20 V 43.7A (Ta), 162A (Tc) 3.7W (Ta), 52W (Tc) Surface Mount PowerPAK® 1212-8
+K MOSFET N-CH 20V 43.7A/162A PPAK
+F https://www.vishay.com/docs/76681/sisa40dn.pdf
 $ENDCMP
 #
 $CMP STM32F401RCTx
@@ -458,6 +536,18 @@ $CMP Switch_SMT
 D Tactile Switch SPST-NO Top Actuated Surface Mount
 K switch lever
 F ~
+$ENDCMP
+#
+$CMP TMCS1101A4BQDR
+D Current Sensor 5.6A 1 Channel Hall Effect Bidirectional 8-SOIC (0.154", 3.90mm Width)
+K PRECISION ISOLATED CURRENT SENSOR HALL
+F https://www.ti.com/lit/ds/symlink/tmcs1101.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1623790820018
+$ENDCMP
+#
+$CMP TN2404K-T1-GE3
+D N-Channel 240 V 200mA (Ta) 360mW (Ta) Surface Mount SOT-23-3 (TO-236)
+K MOSFET N-CH 240V 200MA SOT23-3
+F https://www.vishay.com/docs/72225/tn2404k.pdf
 $ENDCMP
 #
 $CMP TVS_DIODE_14V
@@ -481,9 +571,25 @@ K DC DC CONVERTER 5V 2.5W
 F https://www.cui.com/product/resource/vxo78-500-m.pdf
 $ENDCMP
 #
+$CMP XT-60_Female
+D XT60 CONNECTORS MALE/FEMALE PAIR
+K XT60 CONNECTORS MALE/FEMALE PAIR
+F https://cdn.sparkfun.com/datasheets/Prototyping/xt60.pdf
+$ENDCMP
+#
+$CMP esp32_lora
+D esp32 board by hietech
+F https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.pdf
+$ENDCMP
+#
 $CMP level_shifter
 D Voltage Level Translator Bidirectional 1 Circuit 1 Channel 420Mbps 6-TSSOP
 K IC TRNSLTR BIDIRECTIONAL 6TSSOP
+$ENDCMP
+#
+$CMP power_Conn_01x01
+K connector
+F ~
 $ENDCMP
 #
 $CMP rpi_zero_w
