@@ -36,6 +36,90 @@ K SSR RELAY SPST-NO 500MA 0-60V
 F https://www3.panasonic.biz/ac/e_download/control/relay/photomos/catalog/semi_eng_gu1a_aqy21_s.pdf
 $ENDCMP
 #
+$CMP ATmega168A-PU
+D 20MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A_88A_168A-Data-Sheet-40002007A.pdf
+$ENDCMP
+#
+$CMP ATmega168P-20PU
+D 20MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega168PA-PU
+D 20MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48PA_88PA_168PA-Data-Sheet-40002011A.pdf
+$ENDCMP
+#
+$CMP ATmega168PV-10PU
+D 10MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega328-PU
+D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf
+$ENDCMP
+#
+$CMP ATmega328P-PU
+D 20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf
+$ENDCMP
+#
+$CMP ATmega48A-PU
+D 20MHz, 4kB Flash, 512B SRAM, 256B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A_88A_168A-Data-Sheet-40002007A.pdf
+$ENDCMP
+#
+$CMP ATmega48P-20PU
+D 20MHz, 4kB Flash, 512B SRAM, 256B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega48PA-PU
+D 20MHz, 4kB Flash, 512B SRAM, 256B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48PA_88PA_168PA-Data-Sheet-40002011A.pdf
+$ENDCMP
+#
+$CMP ATmega48PV-10PU
+D 10MHz, 4kB Flash, 512B SRAM, 256B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega88A-PU
+D 20MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A_88A_168A-Data-Sheet-40002007A.pdf
+$ENDCMP
+#
+$CMP ATmega88P-20PU
+D 20MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega88PA-PU
+D 20MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48PA_88PA_168PA-Data-Sheet-40002011A.pdf
+$ENDCMP
+#
+$CMP ATmega88PV-10PU
+D 10MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, DIP-28
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8025-8-bit-AVR-Microcontroller-ATmega48P-88P-168P_Datasheet.pdf
+$ENDCMP
+#
 $CMP BMI088
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI088-DS001.pdf
 $ENDCMP
@@ -48,6 +132,12 @@ $ENDCMP
 $CMP Barometer_MS5607
 D Pressure Sensor 0.15PSI ~ 17.4PSI (1kPa ~ 120kPa) Absolute  24 b 8-SMD
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5607-02BA03&DocType=Data+Sheet&DocLang=English
+$ENDCMP
+#
+$CMP Barrel_Jack_Mounting
+D Power Barrel Connector Jack 2.00mm ID (0.079"), 5.50mm OD (0.217") Through Hole, Right Angle
+K CONN PWR JACK 2X5.5MM SOLDER
+F http://www.kycon.com/2013Catalogpage/DC%20Power/KLDX_0202_LT.pdf
 $ENDCMP
 #
 $CMP Buck_Converter
@@ -86,6 +176,12 @@ $CMP C_0u22
 D 0.22µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
 $ENDCMP
 #
+$CMP C_0u33
+D 0.33 µF ±10% 50V Ceramic Capacitor X7R 0805 (2012 Metric)
+K CAP CER 0.33UF 50V X7R 0805
+F https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677
+$ENDCMP
+#
 $CMP C_1000u
 D 1000µF 16V Aluminum Electrolytic Capacitors Radial, Can - SMD 80mOhm @ 100kHz 2000 Hrs @ 105°C
 K 1000µF 16V Aluminum Electrolytic Capacitors Radial, Can - SMD 80mOhm @ 100kHz 2000 Hrs @ 105°C
@@ -99,6 +195,12 @@ $ENDCMP
 #
 $CMP C_10n
 D 10000pF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)
+$ENDCMP
+#
+$CMP C_10p
+D 10 pF ±5% 16V Ceramic Capacitor C0G, NP0 0805 (2012 Metric)
+K CAP CER 10PF 16V C0G/NP0 0805
+F https://www.we-online.de/katalog/datasheet/885012007010.pdf
 $ENDCMP
 #
 $CMP C_10u
@@ -156,6 +258,12 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP Crystal_SMD
+D 16 MHz ±30ppm Crystal 18pF 80 Ohms 4-SMD, No Lead
+K CRYSTAL 16.0000MHZ 18PF SMD
+F http://www.txccorp.com/download/products/quartz_crystals/2015TXC_7M_17.pdf
+$ENDCMP
+#
 $CMP DF40C2.0-20DS-0.4V51
 F https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&productname=DF40C-60DP-0.4V(51)&series=DF40&documenttype=Catalog&lang=en&documentid=D31649_en
 $ENDCMP
@@ -190,8 +298,20 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP D_Zener_13V
+D Zener Diode 13 V 3 W ±5% Surface Mount SMB
+K DIODE ZENER 13V 3W SMB
+F http://www.onsemi.com/pub/Collateral/1SMB5913BT3-D.PDF
+$ENDCMP
+#
 $CMP Dual_XOR_GATE
 D IC GATE XOR 2CH 2-INP 8TSSOP
+$ENDCMP
+#
+$CMP ECS-160-8-37-CWY-TR
+D 16 MHz ±10ppm Crystal 8pF 100 Ohms 4-SMD, No Lead
+K CRYSTAL 16.0000MHZ 8PF SMD
+F https://ecsxtal.com/store/pdf/ecx-1637.pdf
 $ENDCMP
 #
 $CMP EMI_Filter_CLC_100MHZ
@@ -207,6 +327,18 @@ $CMP FRAM_4K
 D FRAM (Ferroelectric RAM) Memory IC 4Kb (512 x 8) SPI 20MHz  8-SOIC
 K IC FRAM 4KBIT SPI 20MHZ 8SOIC
 F https://www.cypress.com/file/136461/download
+$ENDCMP
+#
+$CMP Fuse_15A_72V
+D 15 A 350 V AC 72 V DC Fuse Board Mount (Cartridge Style Excluded) Through Hole Radial, Box
+K FUSE BRD MNT 15A 350VAC 72VDC
+F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0697h-series.pdf
+$ENDCMP
+#
+$CMP Fuse_20A_72V
+D 20 A 350 V AC 72 V DC Fuse Board Mount (Cartridge Style Excluded) Through Hole Radial, Box
+K FUSE BRD MNT 20A 350VAC 72VDC
+F https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-0697h-series.pdf
 $ENDCMP
 #
 $CMP IC_BUFFER_INVERT_5.5V
@@ -233,6 +365,60 @@ $ENDCMP
 #
 $CMP JST_GH_6_RA
 D Connector Header Surface Mount, Right Angle 6 position 0.049" (1.25mm)
+$ENDCMP
+#
+$CMP L7805
+D Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7806
+D Positive 1.5A 35V Linear Regulator, Fixed Output 6V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7808
+D Positive 1.5A 35V Linear Regulator, Fixed Output 8V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7809
+D Positive 1.5A 35V Linear Regulator, Fixed Output 9V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7812
+D Positive 1.5A 35V Linear Regulator, Fixed Output 12V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7815
+D Positive 1.5A 35V Linear Regulator, Fixed Output 15V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7818
+D Positive 1.5A 35V Linear Regulator, Fixed Output 18V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7824
+D Positive 1.5A 40V Linear Regulator, Fixed Output 24V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
+$ENDCMP
+#
+$CMP L7885
+D Positive 1.5A 35V Linear Regulator, Fixed Output 8.5V, TO-220/TO-263/TO-252
+K Voltage Regulator 1.5A Positive
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf
 $ENDCMP
 #
 $CMP LDO_600MA
@@ -324,6 +510,12 @@ $CMP NMOS_BSS12375
 D MOSFET N-CH 100V 170MA SOT23-3
 K N-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf
+$ENDCMP
+#
+$CMP NVS4409NT1G
+D N-Channel 240 V 200mA (Ta) 360mW (Ta) Surface Mount SOT-23-3 (TO-236)
+K MOSFET N-CH 25V 700MA SC70-3
+F https://www.onsemi.com/pdf/datasheet/nts4409n-d.pdf
 $ENDCMP
 #
 $CMP OKL-T_1-W12P-C
@@ -553,6 +745,12 @@ $ENDCMP
 $CMP TVS_DIODE_14V
 D 40V Clamp  Ipp Tvs Diode Surface Mount 0402
 K diode TVS voltage suppressor
+$ENDCMP
+#
+$CMP TestPoint
+D - PC Test Point, Compact Phosphor Bronze Silver Plating Surface Mount Mounting Type
+K PC TEST POINT COMPACT
+F https://www.keyelco.com/userAssets/file/M65p55.pdf
 $ENDCMP
 #
 $CMP USB_B_Mini
